@@ -1,4 +1,3 @@
-import os
 import pandas as pd
 
 class CO2EmissionAnalyzer:

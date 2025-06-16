@@ -29,7 +29,7 @@ def analyze_sms(filename):
     return avg_ham_words, avg_spam_words, spam_exclamation_count
 
 if __name__ == "__main__":
-    filename = 'resources/SMSSpamCollection.txt'
+    filename = 'LV1/resources/SMSSpamCollection.txt'
     ham_average, spam_average, spam_exclamation_count = analyze_sms(filename)
     
     print(f"Average number of words in HAM messages: {ham_average:.2f}")

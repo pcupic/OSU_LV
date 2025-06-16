@@ -14,7 +14,7 @@ def count_words_in_file(filename):
     return word_count
 
 def main():
-    filename = 'resources/song.txt'
+    filename = 'LV1/resources/song.txt'
     word_count = count_words_in_file(filename)
 
     single_occurrences = {word: count for word, count in word_count.items() if count == 1}

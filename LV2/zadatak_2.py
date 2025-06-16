@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-filename = 'resources/data.csv'
+filename = 'LV2/resources/data.csv'
 data = np.loadtxt(filename, delimiter=",", skiprows=1)
 
 num_people = data.shape[0]
